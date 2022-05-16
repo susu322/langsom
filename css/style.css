@@ -56,13 +56,12 @@
 #sec1 .sec1txt_all .story_icon{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;
                                 margin-bottom: 80px;}
 #sec1 .sec1txt_all .story_icon p{margin-right: 20px;}
-#sec1 .sec1txt_all .story_icon .iconimg_all{padding-left: 30px; padding-bottom: 13px;}
+#sec1 .sec1txt_all .story_icon .iconimg{padding-left: 30px; padding-bottom: 13px;}
 
 #sec1 .sec1txt_all .more_bt{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;}
+#sec1 .sec1txt_all .iconimg_all:hover{border-bottom: 2px solid #444;}
 #sec1 .sec1txt_all .more_bt a{display: block;}
 #sec1 .sec1txt_all .more_bt .morebt{margin-right: 9px;}
-#sec1 .sec1txt_all .more_bt .morebt2{width: 50px;}
-#sec1 .sec1txt_all .more_bt .morebt2:hover{animation: morebt2 0.5s infinite linear alternate;}
 
 #sec1 .sec1img_all .img_01{position: absolute; z-index: 1; top: 450px; left: 839px;}
 #sec1 .sec1img_all .img_02{position: absolute; z-index: 2; top: 130px; left: 915px;}
@@ -115,8 +114,9 @@
 
 #sec3 .sec3txt_all .newproducsts{margin-bottom: 5px;}
 
-#sec3 .sec3txt_all .txt_under{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;}
+#sec3 .sec3txt_all .txt_under{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-between;}
 #sec3 .sec3txt_all .txt_under .sec3_margin{margin-right: 914px;}
+#sec3 .sec3txt_all .iconimg_all:hover{border-bottom: 2px solid #444;}
 #sec3 .sec3txt_all .iconimg_all .morebt{margin-right: 9px;}
 
 #sec3 .sec3img_all{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-between;}
@@ -144,8 +144,14 @@
 #sec4{position: relative;}
 #sec4 .sec4_bg{position: absolute; z-index: -1; top: 0px; left: -20px; width: 100%;}
 
-#sec4 .txt_all{color: #ffffff;  margin-bottom: 1000px;}
-#sec4 .txt_all .subscription{padding-top: 65px; margin-bottom: 5px;}
+#sec4 .sec4txt_all{color: #ffffff;  margin-bottom: 1000px;}
+#sec4 .sec4txt_all .subscription{padding-top: 65px; margin-bottom: 5px;}
+#sec4 .sec4txt_all .more_bt:hover{border-bottom: 2px solid #fff;}
+#sec4 .sec4txt_all .more_bt .morebt{margin-right: 9px;}
+#sec4 .sec4txt_all .more_bt a{display: block;}
+
+#sec4 .sec4txt_all .txt_under{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-between;}
+#sec4 .sec4txt_all .txt_under .subscription_txt{margin-right: 900px;}
 
 #sec4 .option_all{position: absolute; top: 130px; left: 670px; z-index: 1;}
 #sec4 .option_all .colorbox5{background-color: #F3F3F3; width: 540px; height: 580px;
@@ -154,29 +160,32 @@
 #sec4 .option_all .colorbox5 .option_txt{text-align: center; margin-bottom: 80px;}
 #sec4 .option_all .colorbox5 .blod{font-weight: 400;}
 
-#sec4 .option_all .option{margin-bottom: 100px;}
-#sec4 .option_all .option>.option1{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;
-                                    margin-bottom: 30px;}
-#sec4 .option_all .option>.option2{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;}
+#sec4 .option_all .option{margin-bottom: 75px;}
+#sec4 .option_all .option>.option1{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;
+                                    margin-bottom: 20px;}
+#sec4 .option_all .option>.option2{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start;}
 
-#sec4 .option_all .option .option1 .op1_txt{padding-top: 10px;}
-#sec4 .option_all .option .option1 .op1_select{width: 270px; height: 50px; 
+#sec4 .option_all .option .option1 .op1_txt{padding-top: 10px; margin-left: 35px; margin-right: 53px;}
+#sec4 .option_all .option .option1 .op1_select{width: 160px; height: 47px; 
                                                 text-align: center; font-size: 15px;}
+#sec4 .option_all .option .option1 .op1_select2{margin-right: 5px;}
 
-#sec4 .option_all .option .option2 .op2_txt{padding-top: 10px;}
-#sec4 .option_all .option .option2 .op2_text{width: 266px; height: 44px; 
+#sec4 .option_all .option .option2 .op2_txt{padding-top: 10px; margin-left: 35px; margin-right: 25px;}
+#sec4 .option_all .option .option2 .op2_text{width: 266px; height: 90px; 
                                              text-align: center; margin-right: 26px; margin-bottom: 15px;
-                                             font-size: 15px; }
+                                             font-size: 14px; }
+
 #sec4 .option_all .option .date{text-align: right; padding-right: 83px; font-size: 14px;
                                 color: rgb(70, 70, 70)}
-
 #sec4 .option_all .option_bt{background-color: #000000; width: 260px; height: 55px;
                               text-align: center; margin-left: 125px;}
                         
 #sec4 .option_all .option_bt .addtocart{padding-top: 13px; height: 40px;}
 #sec4 .option_all .addtocart{color: #ffffff;}
 
-#sec4 .option_img{position: absolute; top: 510px; right: 470px; z-index: 2;}
+#sec4 .option_all .plus{font-size: 15px; color: rgb(97, 97, 97);}
+
+#sec4 .option_img{position: absolute; top: 540px; right: 485px; z-index: 2;}
 
 /* +++++++++++++++++++++++++++++++++ 섹션5- 매거진 +++++++++++++++++++++++++++++++++ */
 #sec5{margin-bottom: 590px;}
@@ -186,6 +195,8 @@
 #sec5 .sec5txt_all .magazine_txt{margin-bottom: 100px;}
 
 #sec5 .sec5txt_all .more_bt{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;}
+#sec5 .sec5txt_all .iconimg_all:hover{border-bottom: 2px solid #444;}
+#sec5 .sec5txt_all .more_bt a{display: block;}
 #sec5 .sec5txt_all .more_bt .morebt{margin-right: 9px;}
 
 
