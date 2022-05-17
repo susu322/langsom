@@ -59,7 +59,7 @@
 #sec1 .sec1txt_all .story_icon .iconimg{padding-left: 30px; padding-bottom: 13px;}
 
 #sec1 .sec1txt_all .more_bt{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;}
-#sec1 .sec1txt_all .iconimg_all:hover{border-bottom: 2px solid #444;}
+#sec1 .sec1txt_all .iconimg_all:hover{color: rgba(0, 0, 0, 0.6); transition: 0.2s;}
 #sec1 .sec1txt_all .more_bt a{display: block;}
 #sec1 .sec1txt_all .more_bt .morebt{margin-right: 9px;}
 
@@ -116,7 +116,7 @@
 
 #sec3 .sec3txt_all .txt_under{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-between;}
 #sec3 .sec3txt_all .txt_under .sec3_margin{margin-right: 914px;}
-#sec3 .sec3txt_all .iconimg_all:hover{border-bottom: 2px solid #444;}
+#sec3 .sec3txt_all .iconimg_all:hover{color: rgba(0, 0, 0, 0.6); transition: 0.2s;}
 #sec3 .sec3txt_all .iconimg_all .morebt{margin-right: 9px;}
 
 #sec3 .sec3img_all{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-between;}
@@ -146,7 +146,7 @@
 
 #sec4 .sec4txt_all{color: #ffffff;  margin-bottom: 1000px;}
 #sec4 .sec4txt_all .subscription{padding-top: 65px; margin-bottom: 5px;}
-#sec4 .sec4txt_all .more_bt:hover{border-bottom: 2px solid #fff;}
+#sec4 .sec4txt_all .more_bt:hover{color: rgba(225, 225, 225, 0.8); transition: 0.2s;}
 #sec4 .sec4txt_all .more_bt .morebt{margin-right: 9px;}
 #sec4 .sec4txt_all .more_bt a{display: block;}
 
@@ -195,7 +195,7 @@
 #sec5 .sec5txt_all .magazine_txt{margin-bottom: 100px;}
 
 #sec5 .sec5txt_all .more_bt{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;}
-#sec5 .sec5txt_all .iconimg_all:hover{border-bottom: 2px solid #444;}
+#sec5 .sec5txt_all .iconimg_all:hover{color: rgba(0, 0, 0, 0.6); transition: 0.2s;}
 #sec5 .sec5txt_all .more_bt a{display: block;}
 #sec5 .sec5txt_all .more_bt .morebt{margin-right: 9px;}
 
