@@ -25,6 +25,7 @@
 
 #header .hd_under{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;
                     border-top: 1px solid #B3B3B3; padding: 7px 0;}
+#header .hd_under .product .blue{color: blue; font-weight: bold;}
 #header .hd_under .product{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;}
 #header .hd_under .product > li a{text-decoration: none; color: inherit;
                              display: block; text-align: center; padding-right: 92px;}
