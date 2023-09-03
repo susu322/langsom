@@ -116,7 +116,7 @@
 #sec3 .sec3txt_all .newproducsts{margin-bottom: 5px;}
 
 #sec3 .sec3txt_all .txt_under{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:space-between;}
-#sec3 .sec3txt_all .txt_under .sec3_margin{margin-right: 914px;}
+#sec3 .sec3txt_all .txt_under .sec3_margin{margin-right: 870px;}
 #sec3 .sec3txt_all .iconimg_all:hover{color: rgba(0, 0, 0, 0.6); transition: 0.2s;}
 #sec3 .sec3txt_all .iconimg_all .morebt{margin-right: 9px;}
 
