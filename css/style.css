@@ -54,10 +54,11 @@
 #sec1 .sec1txt_all .ourstory{margin-bottom: 5px;}
 #sec1 .sec1txt_all .story_txt{margin-bottom: 80px;}
 
-#sec1 .sec1txt_all .story_icon{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;
+#sec1 .sec1txt_all .story_icon ul{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;
                                 margin-bottom: 80px;}
-#sec1 .sec1txt_all .story_icon p{margin-right: 20px;}
-#sec1 .sec1txt_all .story_icon .iconimg{padding-left: 30px; padding-bottom: 13px;}
+#sec1 .sec1txt_all .story_icon p{margin-right: 19px;}
+#sec1 .sec1txt_all .story_icon .iconimg{padding-left: 30px; padding-bottom: 18px;}
+#sec1 .sec1txt_all .story_icon .fontsize{font-size: 18px;}
 
 #sec1 .sec1txt_all .more_bt{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;}
 #sec1 .sec1txt_all .iconimg_all:hover{color: rgba(0, 0, 0, 0.6); transition: 0.2s;}
@@ -168,7 +169,7 @@
 
 #sec4 .option_all .option .option1 .op1_txt{padding-top: 10px; margin-left: 35px; margin-right: 53px;}
 #sec4 .option_all .option .option1 .op1_select{width: 160px; height: 47px; 
-                                                text-align: center; font-size: 15px;}
+                                                text-align: center; font-size: 16px;}
 #sec4 .option_all .option .option1 .op1_select2{margin-right: 5px;}
 
 #sec4 .option_all .option .option2 .op2_txt{padding-top: 10px; margin-left: 35px; margin-right: 25px;}
