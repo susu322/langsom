@@ -81,7 +81,7 @@
 #sec2 .sec2_scentbox .txt_all>.scent{padding-top: 65px; margin-bottom: 5px;}
 
 
-#sec2 .img_all{position: absolute; top: 15px; left: 300px; width: 1350px; overflow: hidden;}
+#sec2 .img_all{position: absolute; top: 15px; left: 310px; width: 1350px; overflow: hidden;}
 #sec2 .sec2_img{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content:flex-start;
                 position: absolute; z-index: 1; top: 80px; left: 280px;
                 height: 465px;}
